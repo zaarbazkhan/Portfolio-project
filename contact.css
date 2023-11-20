@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(48, 47, 47);
+}
+nav{
+    display: flex;
+}
+.navbar img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.navbar a{
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    right: 320px;
+    top: 38px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.icon i{
+    color: orange;
+    cursor: pointer;
+    margin-top: 25px;
+   
+    
+}
+
+.navbar button{
+    width: 200px;
+    height: 60px;
+    margin-left: 500px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orange;
+    
+    border-radius: 10px;
+    color: black;
+}
+.navbar button a{
+    color: black;
+    font-size: large;
+    font-weight: 20;
+    padding-right: 40px;
+}
+.head p{
+    color: rgb(56, 173, 109);
+    padding-left: 50px;
+}
+
+.line{
+    display: inline-block;
+      height: 2px;
+      width: 15px;
+      margin-bottom: 4px;
+      margin-right: 5px;
+      background-color:  rgb(56, 173, 109);
+  }
+  .header{
+    display: flex;
+  }
+  .head{
+    flex-basis: 50%;
+    margin-top: 50px;
+  }
+  .head h1{
+    color: white;
+    padding-left: 50px; 
+    font-size: 50px;
+    padding-top: 20px;
+
+  }
+  .head .par{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+    
+  }
+.phone{
+    padding-top: 50px;
+    margin-left: 50px;
+    color: orange;
+
+    
+}
+.phone i{
+    padding-left: 10px;
+    
+}
+.phone h1{
+    font-size: 30px;
+}
+.email{
+    padding-top: 20px;
+    margin-left: 50px;
+    color: orange;
+
+}
+.email i{
+    padding-left: 10px;
+    
+}
+.email h1{
+    font-size: 30px;
+}
+
+.info{
+    
+    padding-top: 100px;
+}
+input{
+    width: 280px;
+    height: 45px;
+    margin-left: 20px;
+    border: 2px solid rgb(56, 173, 109);
+    border-radius: 15px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.msg input{
+    margin-top: 20px;
+    width: 600px;
+    height: 250px;
+    padding-bottom: 200px;
+    margin-left: 20px;
+    border: 2px solid rgb(56, 173, 109);
+    border-radius: 15px;
+    background: none;
+}
+.btn2{
+    position: relative;
+    left: 100px;
+    background-color: orange;
+    margin-top: 50px;
+    padding: 20px 15px 20px 35px;
+    width: 180px;
+    height: 55px;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .btn2 a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 20;
+  }
+  .footer{
+    display: flex;
+     margin-top: 200px;
+     height: 150px;
+     width: 100%;
+     background-color: black;
+ }
+ .footer img{
+     width: 150px;
+     padding-left: 20px;
+ }
+ .footer span{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-left: 150px;
+     color: white;
+ }
+ .footer i{
+     position: relative;
+     top: 20px;
+     
+     color: orange;
+ }
+ .icon1{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 100px;
+ }
+ .icon2{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
+ .icon3{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
+ .icon4{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
+

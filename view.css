@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(48, 47, 47);
+}
+nav{
+    display: flex;
+}
+.navbar img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.navbar a{
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    right: 320px;
+    top: 38px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.icon i{
+    color: orange;
+    cursor: pointer;
+    margin-top: 25px;
+   
+    
+}
+
+.navbar button{
+    width: 200px;
+    height: 60px;
+    margin-left: 500px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: orange;
+    
+    border-radius: 10px;
+    color: black;
+}
+.navbar button a{
+    color: black;
+    font-size: large;
+    font-weight: 20;
+    padding-right: 40px;
+}
+.portfolio{
+    display: flex;
+    margin-top: 200px;
+  }
+  .write{
+    margin-top: 100px;
+    margin-left: 70px;
+    flex-basis: 40%;
+  }
+  .write p{
+    color: rgb(56, 173, 109);
+    
+  }
+  .write h1{
+    color: white;
+    margin-top: 30px;
+  }
+.write .parag{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.write i{
+    padding-top: 30px;
+    color: orange;
+}
+.write a{
+    padding-left: 20px;
+    color: orange;
+    text-decoration: none;
+}
+.project{
+    margin-left: 20px;
+    border-radius: 20px;
+    border-radius: 100px;
+}
+.footer{
+    display: flex;
+     margin-top: 200px;
+     height: 150px;
+     width: 100%;
+     background-color: black;
+ }
+ .footer img{
+     width: 150px;
+     padding-left: 20px;
+ }
+ .footer span{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-left: 150px;
+     color: white;
+ }
+ .footer i{
+     position: relative;
+     top: 20px;
+     
+     color: orange;
+ }
+ .icon1{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 100px;
+ }
+ .icon2{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
+ .icon3{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
+ .icon4{
+     text-align: center;
+     border-radius: 10px;
+     width: 55px;
+     height: 55px;
+     background-color: rgb(37, 37, 37);
+     position: relative;
+     top: 50px;
+     margin-left: 50px;
+ }
